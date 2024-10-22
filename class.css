@@ -1,4 +1,21 @@
-.A{
+/* .A{
   background-color: red;
   
+} */
+
+#tsid,#tlname{
+  background-color: green;
+  color: red;
+}
+.tb{
+  background-color: blue;
+  color: white;
+}
+select{
+  background-color: orange;
+  color: #45ff12;
+}
+input[type=submit]{
+  background-color: aqua;
+  color: red;
 }
