@@ -1,9 +1,130 @@
 <html>
   <head>
-
+    <style>
+      div{
+        padding: 40px;
+        height: 300px;
+        width: 300;
+        position: relative;
+        left: 250;
+        top: 200;
+        background-color: aquamarine;
+        border: 7px solid greenyellow;
+        border-radius: 10px;
+        box-shadow: 30px 30px 30px grey;
+      }
+      input[type=text]{
+        background-color: rgb(204, 198, 198);
+        color: white;
+        padding: 5px;
+        border: 2px solid rgb(52, 52, 53);
+        border-radius: 5px;
+      }
+      #age,#email{
+        background-color: #a3d3fb;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid blue;  
+      }
+      select{
+        background-color: rgb(119, 119, 232);
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid blue; 
+      }
+      input[type=button]{
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid rgb(69, 93, 13); 
+      }
+      
+    </style>
   </head>
   <body>
-    <table></table>
-    <a href="login.html">login.html</a>
+    <div>
+    <table>
+      <tr>
+        <td>
+          First name:
+        </td>
+        <td>
+          <input type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Last name:
+        </td>
+        <td>
+          <input type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Age:
+        </td>
+        <td>
+          <input type="number" id="age">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email:
+        </td>
+        <td>
+          <input type="email" id="email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+        </td>
+        <td>
+          <input type="radio">Male
+          <input type="radio">Female
+          <input type="radio">Other
+        </td>
+      </tr>
+      <tr>
+        <td>
+          State:
+        </td>
+        <td>
+          <select name="State" id=""> <option value="">--select--</option>
+          <option value="AP">AP</option>
+          <option value="KA">KA</option></select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BG:
+        </td>
+        <td>
+          <select name="BG" id=""><option value="">--select--</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option></select>  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Qualification:
+        </td>
+        <td>
+          <input type="checkbox">SSLC
+          <input type="checkbox">Degree
+          <input type="checkbox">PG
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" value="SUBMIT">
+        </td>
+        <td>
+          <a href="login.html">login.html</a>
+        </td>
+      </tr>
+    </table>
+  </div>    
   </body>
 </html>
